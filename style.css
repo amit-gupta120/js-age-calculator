@@ -37,7 +37,6 @@
   flex: 1;
   margin-right: 20px;
   padding: 14px 20px;
-
   border: 0;
   outline: 0;
   font-size: 18px;
@@ -45,7 +44,7 @@
   position: relative;
 }
 .input-box button {
-    background: #ffff76;
+  background: #ffff76;
   border: 0;
   outline: 0;
   cursor: pointer;
@@ -57,14 +56,21 @@
 
 .input-box input::-webkit-calendar-picker-indicator {
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
-  margin-right: 100px;
   position: absolute;
-  cursor: pointer;
   width: auto;
   height: auto;
-  background-position: calc(100%-10px);
+  cursor: pointer;
+  background-position: calc(100% - 10px);
   background-size: 30px;
+}
+
+#result {
+  font-size: 20px;
+}
+
+#result span {
+  color: #ffff76;
 }
